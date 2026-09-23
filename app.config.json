@@ -1,0 +1,14 @@
+{
+  "$schema": "./.dt-app/app.config.schema.json",
+  "environmentUrl": "https://lgb11738.apps.dynatrace.com/",
+  "app": {
+    "name": "AIBillingTopo",
+    "version": "0.0.0",
+    "description": "A starting project with routing, fetching data, and charting",
+    "id": "my.ai.billing.topo",
+    "scopes": [
+      { "name": "storage:logs:read", "comment": "default template" },
+      { "name": "storage:buckets:read", "comment": "default template" }
+    ]
+  }
+}
