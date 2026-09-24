@@ -216,7 +216,7 @@ The first implementation used `table-layout: auto` (the Strato default), causing
 
 ## Deployment
 
-The target environment is configured in `app.config.json` (`environmentUrl`). Deploy with:
+The target environment is configured in `app.config.json` (`environmentUrl`). You need to add your target environment before Deploy. Deploy with:
 
 ```bash
 npm run deploy
