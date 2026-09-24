@@ -1,6 +1,7 @@
 # DT APP files
 .dt-app/*
 !/.dt-app/deployment.json
+./app.config.json
 
 # Compiled output
 /dist

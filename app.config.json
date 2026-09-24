@@ -8,7 +8,8 @@
     "id": "my.ai.billing.topo",
     "scopes": [
       { "name": "storage:logs:read", "comment": "default template" },
-      { "name": "storage:buckets:read", "comment": "default template" }
+      { "name": "storage:buckets:read", "comment": "default template" },
+      { "name": "storage:system:read", "comment": "Read GenAI invocation events from dt.system.events" }
     ]
   }
 }

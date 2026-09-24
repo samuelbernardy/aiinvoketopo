@@ -10,6 +10,9 @@ export const Header = () => {
         <AppHeader.NavigationItem as={Link} to="/data">
           Explore Data
         </AppHeader.NavigationItem>
+        <AppHeader.NavigationItem as={Link} to="/billing">
+          AI Billing Topology
+        </AppHeader.NavigationItem>
       </AppHeader.Navigation>
     </AppHeader>
   );
